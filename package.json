@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "esbuild ./src/*.js --servedir=dist --outdir=dist"
+    "start": "esbuild ./src/*.js --servedir=dist --outdir=dist/esbuild"
   },
   "author": "redaphid <iam@aaronherres.com>",
   "license": "MIT",

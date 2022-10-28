@@ -7,10 +7,3 @@
 // @author      -
 // @description 10/27/2022, 3:59:32 PM
 // ==/UserScript==
-console.log('hi')
-console.log('there')
-console.log('how')
-console.log('are')
-console.log('you')
-console.log('i')
-console.log('am')

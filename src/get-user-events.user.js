@@ -18,6 +18,8 @@ console.log('please')
 console.log('ugh')
 console.log('please')
 
-$('div').each(function() {
+setInterval(() => {
+$('a[href^="/events"]').each(function() {
   console.log($(this).text())
 })
+}, 1000)

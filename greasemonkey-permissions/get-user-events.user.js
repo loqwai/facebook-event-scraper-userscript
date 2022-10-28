@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Facebook Event Scraper
 // @namespace   Violentmonkey Scripts
-// @match       https://www.facebook.com/events
+// @match       https://www.facebook.com/events*
 // @grant       none
 // @version     1.0
 // @author      -

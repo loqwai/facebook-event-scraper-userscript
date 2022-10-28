@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "esbuild ./src/*.js --servedir=dist --outdir=dist/esbuild",
+    "start": "esbuild --watch ./src/*.js --outdir=dist/esbuild",
+    "serve": "http-server -c1 dist/out",
     "add-header": "nodemon -w ./dist/esbuild --exec './scripts/add-greasemonkey-header.fish'"
-
   },
   "author": "redaphid <iam@aaronherres.com>",
   "license": "MIT",
   "dependencies": {
     "concurrently": "^7.5.0",
     "esbuild": "^0.15.12",
+    "http-server": "^14.1.1",
     "nodemon": "^2.0.20"
   }
 }

@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "start": "esbuild ./src/*.js --servedir=dist --outdir=dist/esbuild"
+    "start": "esbuild ./src/*.js --servedir=dist --outdir=dist/esbuild",
+    "add-header": "nodemon -w ./dist/esbuild --exec './scripts/add-greasemonkey-header.fish'"
+
   },
   "author": "redaphid <iam@aaronherres.com>",
   "license": "MIT",
   "dependencies": {
-    "esbuild": "^0.15.12"
+    "concurrently": "^7.5.0",
+    "esbuild": "^0.15.12",
+    "nodemon": "^2.0.20"
   }
 }
